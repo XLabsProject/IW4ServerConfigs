@@ -85,6 +85,14 @@ set PlaylistFilename=myplaylists.info
 set ServerFilename=partyserver.cfg
 
 ::///////////////////////////////////////////////////////////////////////
+::// 	Below edits the PATH enviroment variable so you can start a    //
+:://	server whilst using the XLabs launcher.                        //
+:://	You do not need to have iw4x.dll in the game folder anymore.   //
+:://	You can run xlabs.exe to automaticaly update IW4x.             //
+::///////////////////////////////////////////////////////////////////////
+set PATH=%localappdata%\xlabs\data\iw4x;%PATH%
+
+::///////////////////////////////////////////////////////////////////////
 :://DONE!! WARNING! Don't mess with anything below this line. SEROUSLY!//
 ::///////////////////////////////////////////////////////////////////////
 
