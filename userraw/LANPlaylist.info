@@ -4,9 +4,9 @@
 // Deleting gametype scripts may cause broken playlist. Always check and make sure no   //
 // playlist errors on the console_mp.log once you edit it.                              //
 //                                                                                      //
-//	--FILE LIMITS--                                                                     //
-//	32 Gametypes                                                                        //
-//	23 playlists                                                                        //
+// --FILE LIMITS--                                                                      //
+// 32 Gametypes                                                                         //
+// 23 playlists                                                                         //
 //////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////
