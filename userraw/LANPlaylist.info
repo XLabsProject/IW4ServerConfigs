@@ -2,11 +2,11 @@
 //                             IW4x playlists_default.info                              //
 //////////////////////////////////////////////////////////////////////////////////////////
 // Deleting gametype scripts may cause broken playlist. Always check and make sure no   //
-// playlist errors on the console_mp.log once you edit it.              		//
+// playlist errors on the console_mp.log once you edit it.                              //
 //                                                                                      //
-//	--FILE LIMITS--                                                                 //
-//	32 Gametypes                                                                    //
-//	23 playlists                                                                    //
+//	--FILE LIMITS--                                                                     //
+//	32 Gametypes                                                                        //
+//	23 playlists                                                                        //
 //////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////
@@ -17,10 +17,10 @@ gametype ffa                                                                    
 name english "Free-for-all"                                                             // Name of the gametype.
 script dm                                                                               // Real gametype.
 rule scr_dm_scorelimit 1500                                                             // Score limit to win the game.
-rule scr_dm_timelimit 10							        // Duration in minutes for the game to end if the score limit isn't reached.
-rule scr_thirdperson 0								        // 3rd person
-rule scr_dm_playerrespawndelay -1					                // -1 is no respawn delay, 0 is automatic, > 0 is X seconds
-rule scr_dm_numlives 0								        // Number of lives per player 0 for unlimited.
+rule scr_dm_timelimit 10                                                                // Duration in minutes for the game to end if the score limit isn't reached.
+rule scr_thirdperson 0                                                                  // 3rd person
+rule scr_dm_playerrespawndelay -1                                                       // -1 is no respawn delay, 0 is automatic, > 0 is X seconds
+rule scr_dm_numlives 0                                                                  // Number of lives per player 0 for unlimited.
 rule scr_dm_promode 0
 
 gametype hc_ffa                                                                         // Function for the playlist rotation.
@@ -37,9 +37,9 @@ rule scr_player_healthregentime 0                                               
 rule scr_player_maxhealth 30                                                            // Percent of Health players will have on Respawn.
 rule scr_game_Allowkillcam 1                                                            // Allow Killcam.
 rule set scr_dm_playerrespawndelay -1                                                   // -1 is no respawn delay, 0 is automatic, > 0 is X seconds
-rule scr_hardcore 1									// Enable or Disable Hardcore Mode.
+rule scr_hardcore 1                                                                     // Enable or Disable Hardcore Mode.
 rule ui_hud_hardcore 1                                                                  // Heads up display.
-rule g_hardcore 1									// Enable or Disable Hardcore Mode.
+rule g_hardcore 1                                                                       // Enable or Disable Hardcore Mode.
 
 //////////////////////////////////////
 //	Team Deathmatch Function Script	//
@@ -47,7 +47,7 @@ rule g_hardcore 1									// Enable or Disable Hardcore Mode.
 
 gametype tdm										//	Function for the playlist rotation.
 name english "Team Deathmatch"						//	Name of the gametype.
-name french "Match à mort par équipe"
+name french "Match ï¿½ mort par ï¿½quipe"
 name italian "Deathmatch a squadre"
 name german "Team-Deathmatch"
 name spanish "Duelo por equipos"
@@ -1512,7 +1512,7 @@ mp_trailerpark,sab,1
 mp_vacant,sab,1
 
 
-playlist 15
+playlist 16
 name english "Hardcore: sabotage"
 
 rule party_minplayers 2

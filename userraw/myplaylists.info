@@ -1493,7 +1493,7 @@ mp_trailerpark,sab,1
 mp_vacant,sab,1
 
 
-playlist 15
+playlist 16
 name english "Hardcore: sabotage"
 
 rule party_minplayers 4
