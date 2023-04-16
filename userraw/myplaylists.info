@@ -58,7 +58,7 @@ rule scr_war_playerrespawndelay -1                 // How long player will wait 
 rule scr_war_waverespawndelay 0                    // First respawn delay for each round.
 rule scr_war_numlives 0                            // Number of lives per player. 0 for unlimited.
 rule scr_war_promode 0
-rule scr_diehard 0                                 // Basically gives everyone last stand and teammates will have to relieve you.
+rule scr_diehard 0                                 // Basically gives everyone last stand and teammates will have to revive you.
 rule scr_war_roundlimit 1                          // Rounds per game.
 rule scr_war_winlimit 1                            // amount of wins needed to win a round-based game
 rule scr_game_Allowkillcam 1                       // Allow Killcam.
@@ -75,7 +75,7 @@ rule scr_war_waverespawndelay 0                    // First respawn delay for ea
 rule scr_war_numlives 0                            // Number of lives per player. 0 for unlimited.
 rule scr_war_promode 0
 rule scr_thirdperson 0                             // Third-Person Mode.
-rule scr_diehard 1                                 // Basically gives everyone last stand and teammates will have to relieve you.
+rule scr_diehard 1                                 // Basically gives everyone last stand and teammates will have to revive you.
 rule scr_war_roundlimit 1                          // Rounds per game.
 rule scr_war_winlimit 1                            // amount of wins needed to win a round-based game
 rule scr_game_Allowkillcam 1                       // Allow Killcam.
@@ -121,7 +121,7 @@ gametype die_dom                                  // Gametype name for playlist.
 name english "Die-Hard Domination"                // Gametype name for english versions of IW4x.
 script dom                                        // Gametype script thats based off gsc.
 teambased                                         // Telling script that is team based mode.
-rule scr_diehard 1                                // Basically gives everyone last stand and teammates will have to relieve you.
+rule scr_diehard 1                                // Basically gives everyone last stand and teammates will have to revive you.
 rule scr_dom_scorelimit 200                       // Score limit to win the game.
 rule scr_dom_timelimit 30                         // Duration in minutes for the game to end if the score limit isn't reached.
 rule scr_thirdperson 0                            // Third-Person Mode.
@@ -178,7 +178,7 @@ gametype die_hq                                   // Gametype name for playlist.
 name english "Die-Hard Headquarters"              // Gametype name for english versions of IW4x.
 script koth                                       // Gametype script thats based off gsc.
 teambased                                         // Telling script that is team based mode.
-rule scr_diehard 1                                // Basically gives everyone last stand and teammates will have to relieve you.
+rule scr_diehard 1                                // Basically gives everyone last stand and teammates will have to revive you.
 rule scr_koth_scorelimit 250                      // Score limit to win the game.
 rule scr_koth_timelimit 15                        // Duration in minutes for the game to end if the score limit isn't reached.
 rule scr_thirdperson 0                            // Third-Person Mode.
